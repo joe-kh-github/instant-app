@@ -1,0 +1,67 @@
+{
+	"info": {
+		"_postman_id": "7c436ffd-0709-4474-ad3f-bfc0f8fda6bc",
+		"name": "INSTANT",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET PARKINGS BY COORDINATES",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/parkings?longitude=0.3512954265806957&distance=2&latitude=46.58595804860371",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"parkings"
+					],
+					"query": [
+						{
+							"key": "longitude",
+							"value": "0.3512954265806957"
+						},
+						{
+							"key": "distance",
+							"value": "2"
+						},
+						{
+							"key": "latitude",
+							"value": "46.58595804860371"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET PARKINGS BY ADDRESS",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/parkings?address=Boulevard De Lattre de Tassigny",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"parkings"
+					],
+					"query": [
+						{
+							"key": "address",
+							"value": "Boulevard De Lattre de Tassigny"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

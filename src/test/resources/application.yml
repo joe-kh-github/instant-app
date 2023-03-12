@@ -1,0 +1,4 @@
+parking:
+  grandpoitiers:
+    base-url: https://localhost:9090
+    record-search-endpoint: /api/records/1.0/search
