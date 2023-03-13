@@ -1,4 +1,4 @@
-## description
+## Description
 L'application mobile appel l'endpoint getParkings en passant en paramètre l'addresse ou en passant en paramètre
 latitude, longitude et distance, le service appellera la première dataset avec des filtres pour récupérer la liste des parkings puis
 il appellera la deuxième dataset avec des filtres et ensuite il fusionnera les deux résultats en une seule liste selon le nom du parking 
@@ -19,3 +19,6 @@ et enfin il retournera le résultat final
 * Ajouter l'authentification/Autorisation
 * Paralléliser l'appel aux deux datasets pour que la deuxième dataset ne soit pas bloquée par la première
 * Prendre en considération le quota limite de l'api qui retourne en temps réel les places disponibles dans un parking
+
+## Temps consacré pour l'exercice
+Une journée
